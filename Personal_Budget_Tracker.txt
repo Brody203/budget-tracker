@@ -1,0 +1,23 @@
+Description:
+
+Build a simple text-based program that tracks your income and expenses.
+The user can enter transactions, categorize them, view summaries, and save the data to a file so it persists between runs.
+This project reinforces Python fundamentals such as functions, classes, loops, dictionaries, and file I/O.
+
+Core Requirements:
+-Ask for income, source, and save it internally (data file)
+-Ask for expenses, category, save it internally
+-display total income, total expenses, net balance(income - expenses)
+-Viewable category spending, ask for category, output how much spent on this category
+-Save all transactions in a data file in a dictionary
+-Load data from file when program starts
+-Menu system, program loops until user says 'END' or 'STOP'
+
+
+Overview:
+-Basically, when the program is live, you are saving dictionaries in a list and then after the program ends, each dictionary is saved in a file, data.txt with the time of save in the dictionary as well. Then when the program starts again the user will enter if he wants to enter new expenses or income or if he wants to extract data.
+
+-program live: only modifying the list of dicts, not the text file
+-program dead: edit text file
+-next time program is live: either modify list of dicts or extract from list of dicts.
+
